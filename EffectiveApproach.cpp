@@ -9,7 +9,7 @@ int main(){
     cin>>m;
     for(int j=0; j<m; j++){
         cin>>compare[j];
-        int k=0, l=n-1;
+        //int k=0, l=n-1;
         left = find(numbers[0], numbers[n],compare[j])+left;
         /*while(compare[j] != numbers[k]){
             k++;
